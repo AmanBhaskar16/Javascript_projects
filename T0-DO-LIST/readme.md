@@ -22,4 +22,4 @@ A simple todo list web app with add, edit, and delete functionality. Uses localS
 
 
 ## Author
-Your Name
+Aman Bhaskar
