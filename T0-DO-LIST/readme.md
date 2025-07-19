@@ -18,7 +18,8 @@ A simple todo list web app with add, edit, and delete functionality. Uses localS
 2. Use the input box to manage your todos.
 
 ## Screenshot
-_Add a screenshot or demo gif here if you want_
+<img width="1111" height="679" alt="image" src="https://github.com/user-attachments/assets/66567a6a-cc67-4efb-9d13-b275f76b4385" />
+
 
 ## Author
 Your Name
