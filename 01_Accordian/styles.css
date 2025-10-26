@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.section{
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.container{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 50px;
+  color : rgb(236, 91, 91);
+  text-align: center;
+}
+
+.accordion{
+  max-width: 700px;
+  margin: auto;
+}
+
+.accordion-item{
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 10px;
+  background-color: rgb(240, 233, 172);
+}
+
+.accordion-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-title i{
+  background-color: rgb(244, 198, 14);
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.accordion-title h3{
+  flex: 1;
+  margin-bottom: 12px;
+}
+
+.accordion-content{
+  display: none;
+}
+
+.accordion-title.active + .accordion-content{
+  display: block;
+}
+
+.accordion-content p{
+  font-size: 18px;
+}
+
+.accordion-title i {
+  transition: transform 0.4s; /* set transition always */
+  transform: rotate(0deg);    /* default state */
+}
+
+.accordion-title.active i {
+  transform: rotate(180deg);  /* rotated when active */
+}
+
